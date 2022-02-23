@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".EmpresaActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="368dp"
+        android:layout_height="222dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/mybutton"
+        android:layout_width="164dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FBF9F9"
+        android:ellipsize="middle"
+        android:fontFamily="@font/raleway"
+        android:scrollbarSize="8dp"
+        android:text="Enrere"
+        android:textColor="#3F51B5"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="-2dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="85dp"
+        android:text="A Autocars del Penedès som una companyia familiar de 4 generacions, il·lusionats i apassionats pel que fem. Amb 10 valors que considerem imprescindibles per la feina que fem. Tenim una actitud curiosa, creativa i innovadora dirigida cap a una mobilitat col·lectiva i equilibrada. Enfocats per aconseguir no només l’èxit de la companyia, sinó també l’èxit de cada persona,dins i fora d’aquesta, oferint solucions flexibles i socials. La nostra organització multidisciplinària, orgànica i líquida genera un ecosistema sostenible i evolutiu per la millora de les persones.Incloure les nostres tasques dins una acció sistèmica i al intentar recollir les sensacions intangibles d’usuaris i clients, ens permet ser molt propers i poder conèixer la realitat i necessitats dels serveis i les persones.A Autocars del Penedès fem de la transparència, la comunicació i la proximitat una forma de ser,juntament amb una condició humana híbrida i responsable. Positivitat per tothom. Més x Més.\n\n  VISIÓ \n La llibertat de la mobilitat equilibrada i col·lectiva.\n\n  MISSIÓ \n Perseverar per oferir la connexió necessària per cada persona."
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
